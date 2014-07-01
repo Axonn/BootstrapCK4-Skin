@@ -70,7 +70,9 @@ Special outer level classes used in this file:
    when the UI is floating. */
 .cke_float {
     /* Make white the space between the outer and the inner borders. */
-    border: none;
+    border-right: solid 3px #0cacc6;
+    border-left: solid 3px #0cacc6;
+    box-shadow: rgba(33, 33, 33, 0.2) 0px 0px 4px;
 
     .cke_inner {
         /* As we don't have blocks following top (toolbar) we suppress the padding
@@ -79,7 +81,8 @@ Special outer level classes used in this file:
     }
 
     .cke_top {
-        border: 1px solid $hr-border;
+        border: none;
+        background:#f0f0f0
     }
 }
 
